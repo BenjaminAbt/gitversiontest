@@ -2,7 +2,7 @@
 
 namespace gitversiontest
 {
-    public class PullRequestClass
+    public class PullRequestClass2
     {
     }
 }
