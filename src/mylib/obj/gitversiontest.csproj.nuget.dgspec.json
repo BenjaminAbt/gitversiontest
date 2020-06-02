@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Ben\\Desktop\\New folder\\gitversiontest\\gitversiontest.csproj": {}
+    "C:\\Users\\Ben\\Desktop\\New folder\\gitversiontest\\src\\mylib\\gitversiontest.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Ben\\Desktop\\New folder\\gitversiontest\\gitversiontest.csproj": {
+    "C:\\Users\\Ben\\Desktop\\New folder\\gitversiontest\\src\\mylib\\gitversiontest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ben\\Desktop\\New folder\\gitversiontest\\gitversiontest.csproj",
+        "projectUniqueName": "C:\\Users\\Ben\\Desktop\\New folder\\gitversiontest\\src\\mylib\\gitversiontest.csproj",
         "projectName": "gitversiontest",
-        "projectPath": "C:\\Users\\Ben\\Desktop\\New folder\\gitversiontest\\gitversiontest.csproj",
+        "projectPath": "C:\\Users\\Ben\\Desktop\\New folder\\gitversiontest\\src\\mylib\\gitversiontest.csproj",
         "packagesPath": "C:\\Users\\Ben\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ben\\Desktop\\New folder\\gitversiontest\\obj\\",
+        "outputPath": "C:\\Users\\Ben\\Desktop\\New folder\\gitversiontest\\src\\mylib\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Ben\\AppData\\Roaming\\NuGet\\NuGet.Config",
