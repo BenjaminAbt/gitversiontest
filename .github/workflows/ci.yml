@@ -1,0 +1,30 @@
+name: NETCore
+
+on:
+    push:
+      branches:
+        - master
+    pull_request:
+      types: [closed]
+      branches:
+        - master
+
+env:
+  # https://www.nuget.org/packages/GitVersion.Tool
+  BuildConfig: Release
+
+jobs:
+    build:
+      runs-on: ubuntu-latest
+      steps:
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: 0 # avoid shallow clone so nbgv can do its work.
+      
+      - uses: aarnott/nbgv@v0.3 # https://github.com/AArnott/nbgv
+        id: nbgv
+
+      - name: Pack NuGet
+        run: dotnet pack 
+              --configuration ${{ env.BuildConfig }}
+              /p:Version=${{ steps.nbgv.outputs.NuGetPackageVersion }}

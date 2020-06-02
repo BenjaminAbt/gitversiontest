@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "KdWxUMrMlIfS+3kVdUkM54AoVXK8v/rBtWU0BzBnavvoIXSVfgd2ascD17CO0fVvie4j3tDcRohu3TOTRrOuqQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Ben\\Desktop\\New folder\\gitversiontest\\gitversiontest.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Ben\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Ben\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
